@@ -1,12 +1,12 @@
 import Tkinter as tk
 import pyqrcode
 win = tk.Tk()
-win.title("QE Code Generator")
+win.title("QR Code Generator")
 
 def generator():
     url = entry.get()
     qr = pyqrcode.create(url)
-    save = qr.svg("myqrcode.svg",scale=10)
+    save = qr.svg("generateQR.svg",scale=10)
 
 label1 = tk.Label(win,text="Enter URL ")
 label1.grid(row=0,column=0)
