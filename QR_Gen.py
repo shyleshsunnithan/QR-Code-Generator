@@ -14,7 +14,7 @@ label1.grid(row=0,column=0)
 entry = tk.Entry(win)
 entry.grid(row=1,column=0)
 
-button = tk.Button(win,text="Generate",command=generator)
+button = tk.Button(win,text="Generate QR",command=generator)
 button.grid(row = 3,column = 0)
 
 win.mainloop()
