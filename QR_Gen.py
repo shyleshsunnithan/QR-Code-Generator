@@ -6,7 +6,7 @@ win.title("QR Code Generator")
 def generator():
     url = entry.get()
     qr = pyqrcode.create(url)
-    save = qr.svg("generateQR.svg",scale=10)
+    save = qr.svg("generatedQR.svg",scale=10)
 
 label1 = tk.Label(win,text="Enter URL ")
 label1.grid(row=0,column=0)
