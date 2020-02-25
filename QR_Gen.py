@@ -3,7 +3,7 @@ import pyqrcode
 win = tk.Tk()
 win.title("QR Code Generator")
 
-def generator():
+def generator():        #fucntion to generate QR
     url = entry.get()
     qr = pyqrcode.create(url)
     save = qr.svg("GeneratedQR.svg",scale=10)
