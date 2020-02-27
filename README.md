@@ -2,7 +2,7 @@
 QR code generator using python. Built using tkinter and pyqrcode module.
 
 * Download the file.
-* Open terminal and locate the folder where the file is present.
+* Open CMD/terminal and locate the folder where the file is present.
 * Run the program.
 * A GUI screen will appear.
 * Type in a URL to the text area.
